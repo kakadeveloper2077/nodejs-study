@@ -1,4 +1,4 @@
-🟢 O Nodejs é fascinante, ele veio pra revolucionar o mundo javascript, quebrando barreiras e permitindo com que ele seja executado, agr fora do navegador. <br>
+🟢 O Nodejs é fascinante, ele veio pra revolucionar o mundo javascript, quebrando barreiras e permitindo com que ele seja executado, agora fora do navegador. <br>
 🟢 Sua instalação é bem simples, basta ir até o site oficial do nodejs -> [https://nodejs.org/en]. <br>
 🟢 Após a instalação, para ver se está instalado e também sua versão, no Prompt de Comando digite :  'node -v'. <br>
 🟢 Para arquivo .js, no node rodamos ele pelo 'node [arquivo .js]'. <br>
