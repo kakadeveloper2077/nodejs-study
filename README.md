@@ -8,4 +8,11 @@
 🟢 Nele temos o módulo http, que nos permite criar um servidor http usando a função 'createServer() + a função listen()', dentro de ambos passamos: pro create server a requisição e a resposta, e pro listen
 a porta que ele vai usar da internet pra rodar, no caso a porta selecionada é a 8081. <br>
 🟢 Definimos como variável inicial como o http, com ele usamos o require pra acessar o módulo http do node, e depois passamos essa mesma variável pra fazer o acesso dessas 2 funções. <br>
-🟢 Ao criarmos o server, usamos o return pra retornar uma resposta ao acesso desse server, no caso 'server running', e como mensagem no console 'server started!'.
+🟢 Ao criarmos o server, usamos o return pra retornar uma resposta ao acesso desse server, no caso 'server running', e como mensagem no console 'server started!'. <br>
+🟢 No server2.js e nos outros servers, todos usam o express, ele é um framework para construção de apps web do nodejs, ele carrega consigo, rotas, as rotas possuem parâmetros e as querys também. <br>
+🟢 Nos parâmetros de rotas e nas queries, são partes da URL q serão usados para pegar as informações de cada um, nas rotas temos o GET, PUT, POST E DELETE. <br>
+🟢 GET -> Significa que essa rota é usada para solicitar dados a um tipo determinado de fonte. <br>
+🟢 POST -> Envia essas informações solicitas. <br>
+🟢 PUT -> Atualiza determinado site ou serviço com novas informações. <br>
+🟢 DELETE -> Remove ou apaga algum dado. <br>
+🟢 Nos parâmetros de Query, as informações são parseadas (traduzidas) por esse framework, o qual se possibilita pelo "req.query". <br>
