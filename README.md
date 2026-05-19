@@ -15,4 +15,4 @@ a porta que ele vai usar da internet pra rodar, no caso a porta selecionada é a
 🟢 POST -> Envia essas informações solicitas. <br>
 🟢 PUT -> Atualiza determinado site ou serviço com novas informações. <br>
 🟢 DELETE -> Remove ou apaga algum dado. <br>
-🟢 Nos parâmetros de Query, as informações são parseadas (traduzidas) por esse framework, o qual se possibilita pelo "req.query". <br>
+🟢 Nos parâmetros de Query (req.query): O framework Express facilita o nosso trabalho ao capturar a Query String (o texto bruto que vem na URL após a ?) e convertê-la (fazer o parse) em um objeto JavaScript. Dessa forma, em vez de tratarmos texto puro, podemos acessar as informações diretamente como propriedades do objeto req.query.
