@@ -16,3 +16,4 @@ a porta que ele vai usar da internet pra rodar, no caso a porta selecionada é a
 🟢 PUT -> Atualiza determinado site ou serviço com novas informações. <br>
 🟢 DELETE -> Remove ou apaga algum dado. <br>
 🟢 Nos parâmetros de Query (req.query): O framework Express facilita o nosso trabalho ao capturar a Query String (o texto bruto que vem na URL após a ?) e convertê-la (fazer o parse) em um objeto JavaScript. Dessa forma, em vez de tratarmos texto puro, podemos acessar as informações diretamente como propriedades do objeto req.query.
+🟢 Os Middlewares são fascinantes, podem executar qualquer código, ter acesso a cada corpo de requisição feito no server, e neles, podemos usar o parse, pra traduzir informações de uma determinada fonte pra outro formato, exemplo, dados de um acesso a um site o server express, pode usar middlewares pra converter o dados pra JSON, tornando eles mais legíveis.
